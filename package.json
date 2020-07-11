@@ -1,0 +1,25 @@
+{
+  "name": "javascriptqueue",
+  "version": "1.0.0",
+  "description": "A Queue implementation written in JavaScript, hosted by Node, tested by Mocha.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelp0730/JavaScriptQueue.git"
+  },
+  "keywords": [
+    "javascript",
+    "queue",
+    "node",
+    "mocha"
+  ],
+  "author": "michaelp0730",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/michaelp0730/JavaScriptQueue/issues"
+  },
+  "homepage": "https://github.com/michaelp0730/JavaScriptQueue#readme"
+}
