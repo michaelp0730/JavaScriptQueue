@@ -11,7 +11,7 @@ describe('Queue', function () {
     });
 
     it('Should enqueue and dequeue items', function (done) {
-        let q = new Queue();
+        const q = new Queue();
         let dequeued;
         q.enqueue('first');
         q.enqueue('second');
@@ -24,7 +24,7 @@ describe('Queue', function () {
     });
 
     it('Should return front item', function (done) {
-        let q = new Queue();
+        const q = new Queue();
         q.enqueue('first');
         q.enqueue('second');
         expect(q.front()).to.equal('first');
@@ -32,7 +32,7 @@ describe('Queue', function () {
     });
 
     it('Should return correct queue size', function (done) {
-        let q = new Queue();
+        const q = new Queue();
         expect(q.size()).to.equal(0);
         q.enqueue('first');
         q.enqueue('second');
@@ -43,7 +43,7 @@ describe('Queue', function () {
     });
 
     it('Should print the correct queue message', function (done) {
-        let q = new Queue();
+        const q = new Queue();
         q.enqueue('first');
         q.enqueue('second');
         expect(q.print()).to.equal('Collection: first,second');
